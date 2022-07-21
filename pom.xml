@@ -12,7 +12,7 @@
         <exec.mainClass>fr.m2i.javaunittest.JavaUnitTest</exec.mainClass>
     </properties>
     
-        <dependencies>
+    <dependencies>
         <dependency>
             <groupId>org.junit.jupiter</groupId>
             <artifactId>junit-jupiter-engine</artifactId>
@@ -47,7 +47,7 @@
     </dependencies>
     
     <build>
-	<plugins>
+        <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-surefire-plugin</artifactId>
@@ -60,12 +60,12 @@
                     </dependency>
                 </dependencies>
                 <configuration>
-                     <additionalClasspathElements>
-                             <additionalClasspathElement>src/test/java/</additionalClasspathElement>
-                     </additionalClasspathElements>
+                    <additionalClasspathElements>
+                        <additionalClasspathElement>src/test/java/</additionalClasspathElement>
+                    </additionalClasspathElements>
                 </configuration>
             </plugin>
-	</plugins>
+        </plugins>
     </build>
 
 </project>
