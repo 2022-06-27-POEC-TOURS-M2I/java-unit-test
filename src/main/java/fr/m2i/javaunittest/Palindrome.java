@@ -9,7 +9,7 @@ public class Palindrome {
         phrase = phrase.toLowerCase();
         phrase = phrase.replaceAll(" ", "");
         phrase = StringUtils.stripAccents(phrase);
-        
+
         int start = 0;
         int end = phrase.length() - 1;
 
@@ -21,7 +21,7 @@ public class Palindrome {
             start++;
             end--;
         }
-        
+
         return true;
     }
 }
